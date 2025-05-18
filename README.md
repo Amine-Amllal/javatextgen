@@ -31,8 +31,6 @@ Java TextGen is an automated content generation application that leverages the G
 1. Clone the repository:
 git clone https://github.com/Amine-Amllal-0/javatextgen.git cd javatextgen
 2. Build with Maven:
-run in terminal
-cd "path to the project"
 mvn javafx:run
 
 ## How to Use
