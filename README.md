@@ -1,6 +1,6 @@
 # Java TextGen
 
-![Java TextGen Logo](src/main/resources/static/images/right.png)
+![Java TextGen Logo](images/logo.png)
 
 ## Overview
 Java TextGen is an automated content generation application that leverages the Gemini AI API to create various types of content including articles, blog posts, reports, case studies, and summaries.
@@ -13,7 +13,7 @@ Java TextGen is an automated content generation application that leverages the G
 - **Rich Text Formatting**: Supports headings, lists, and paragraph formatting in generated content
 
 ## Screenshots
-*(Add screenshots of your application here)*
+![Interface](images/interface.png)
 
 ## Requirements
 - Java 11 or higher
