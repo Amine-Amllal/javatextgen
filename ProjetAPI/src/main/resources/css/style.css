@@ -1,0 +1,101 @@
+/* src/main/resources/css/style.css */
+
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-focus-color: #4285F4;
+    -fx-faint-focus-color: #4285F422;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 5, 0, 0, 1);
+    -fx-border-radius: 5px;
+}
+
+.primary-button {
+    -fx-background-color: #4285F4;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #5294FF;
+}
+
+.primary-button:pressed {
+    -fx-background-color: #3B78DD;
+}
+
+.label-header {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-min-width: 120px;
+}
+
+.section-header {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4285F4;
+}
+
+.styled-text-field {
+    -fx-padding: 8px;
+    -fx-background-radius: 4px;
+    -fx-border-color: #CCCCCC;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+}
+
+.styled-text-field:focused {
+    -fx-border-color: #4285F4;
+}
+
+.styled-combo-box {
+    -fx-padding: 8px 4px;
+    -fx-background-radius: 4px;
+}
+
+.custom-scroll-pane {
+    -fx-background-color: white;
+    -fx-background: white;
+    -fx-border-color: #EAEAEA;
+    -fx-border-radius: 4px;
+}
+
+.custom-scroll-pane > .viewport {
+    -fx-background-color: white;
+}
+
+.result-text-flow {
+    -fx-background-color: white;
+}
+
+.progress-indicator {
+    -fx-progress-color: #4285F4;
+}
+
+.secondary-button {
+    -fx-background-color: #34A853;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #45B964;
+}
+
+.secondary-button:pressed {
+    -fx-background-color: #2D9249;
+}
+
+.secondary-button:disabled {
+    -fx-background-color: #CCCCCC;
+    -fx-text-fill: #888888;
+}

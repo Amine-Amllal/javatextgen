@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.example</groupId>
+  <artifactId>gemini-javafx</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <javafx.version>17.0.12</javafx.version>
+  </properties>
+
+  <dependencies>
+    <!-- JavaFX Controls -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>${javafx.version}</version>
+      <classifier>win</classifier> <!-- Remplacez par linux ou mac si besoin -->
+    </dependency>
+
+    <!-- JavaFX FXML -->
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>${javafx.version}</version>
+      <classifier>win</classifier> <!-- Remplacez par linux ou mac si besoin -->
+    </dependency>
+
+    <!-- JSON processing -->
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20231013</version>
+    </dependency>
+
+    <!-- JUnit 4 pour les tests -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- PDFBox for PDF generation -->
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>2.0.29</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Compiler plugin -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+        </configuration>
+      </plugin>
+
+      <!-- JavaFX Maven Plugin -->
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>org.example.Main</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
