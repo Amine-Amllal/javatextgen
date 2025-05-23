@@ -59,4 +59,4 @@ MIT
 
 ## Contact
 - Email: amineamllal@gmail.com
-- GitHub: [Amine-Amllal-0](https://github.com/Amine-Amllal/javatextgen)
+- GitHub: [Amine-Amllal](https://github.com/Amine-Amllal/javatextgen)
